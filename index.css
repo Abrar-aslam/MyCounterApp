@@ -1,0 +1,51 @@
+body {
+    background-image: url("feather.jpeg");
+    background-size: cover;
+    font-family:  "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh
+}
+
+.container {
+    background: rgb(161, 190, 151);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid rgb(4, 78, 29);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 9px shadow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(72, 0, 139);
+}
+
+#save-el{
+    font-weight: bold;
+    color:rgb(5, 75, 9) ;
+}
+
+#save-btn {
+    background: darkgreen;
+}
